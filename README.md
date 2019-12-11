@@ -1,6 +1,6 @@
 # Budee Take-Home Project
 
-This is a standard pre-interview take-home project that will be used to evaluate the full-stack expertise of candidates looking to join the team at Budee. The candidate must complete one of the projects options below.
+This is a standard pre-interview take-home project that will be used to evaluate the full-stack expertise of candidates looking to join the team at Budee.
 
 
 ## What you should expect
