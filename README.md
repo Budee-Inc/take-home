@@ -11,7 +11,7 @@ We expect the project to be done in **MERN stack with Git** being the version co
 ## What we are looking for
 *Treat it like production code*. 
 
-At the very least, **it should have most of the MVPs and deploy with Heroku, AWS, etc**.
+At the very least, **it should have most of the MVPs and deployed on Heroku, AWS, or other PaaS**.
 
 
 **The project should have a clean architecture, maintainable/scalable code, and well commented/documented**.  Additionally, you should **make frequent commits** to the repository with a concise commit title based on the code change.
