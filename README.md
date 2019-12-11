@@ -23,11 +23,12 @@ Please email the link to the solution and its source code to [engineer@budee.org
 ## Project Options
 ### Option: Checker
 **Prompt**
-* The candidate must replicate the classic Checker boardgame.
+* The candidate should replicate the classic Checker boardgame.
 
 **MVP**
 * Checkered board
-* Draggable pieces
-* When a piece reached the other end, it should transform into a different piece
+* Circle piece
+* Movable pieces using directional keys (doesn't have to abide by the rule)
+* When a piece reached the other end, it should transform into a square
 * The game should automatically save before the browser close
 * A reset button, when clicked, the game will reset
