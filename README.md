@@ -21,5 +21,13 @@ At the very least, **it should have most of the MVPs and deploy with Heroku, AWS
 Please email the link to the solution and its source code to [engineer@budee.org](mailto:engineer@budee.org) or reply to one of our jobs ad
 
 ## Project Options
-### Option: Chess board
-Comming soon...
+### Option: Checker
+**Prompt**
+* The candidate must replicate the classic Checker boardgame.
+
+**MVP**
+* Checkered board
+* Draggable pieces
+* When a piece reached the other end, it should transform into a different piece
+* The game should automatically save before the browser close
+* A reset button, when clicked, the game will reset
