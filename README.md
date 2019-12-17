@@ -32,7 +32,7 @@ Please email the link to the solution and its source code to [engineer@budee.org
 * Checkered board
 * Circle piece
 * Square piece
-* A piece should movable using directional-key
+* A piece should be movable (be creative)
 * When a circle piece reached an edge, it should transform into a square piece
 * The game should automatically save before the browser close (don't use clientside storage)
 * A reset button, when clicked, the game will reset
