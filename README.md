@@ -23,7 +23,10 @@ Please email the link to the solution and its source code to [engineer@budee.org
 ## Project Options
 ### Option: Checker
 **Prompt**
-* The candidate should replicate the classic Checker boardgame.
+* The candidate should attempt replicate the classic Checker boardgame.
+
+**Hint**
+Take one task at a time and carefully look at the requirement.  Do not over complicate things.
 
 **MVP**
 * Checkered board
