@@ -29,7 +29,6 @@ Please email the link to the solution and its source code to [engineer@budee.org
 * Checkered board
 * Circle piece
 * Square piece
-* Movable pieces using directional keys (doesn't have to abide by the rule)
-* When a circle piece reached the other end, it should transform into a square piece
+* When a circle piece reached an edge, it should transform into a square piece
 * The game should automatically save before the browser close (don't use clientside storage)
 * A reset button, when clicked, the game will reset
