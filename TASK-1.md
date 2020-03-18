@@ -23,7 +23,16 @@ All front-end code must be done in React.js
 
 ##### Requirements
 - A squared grid with each cell being either black or white
-- A cell cannot be the same color as its neighbor
+- A cell cannot be the same color as
+  - Cell directly above
+  - Cell directly below
+  - Cell directly left
+  - Cell directly right
+- A cell must share the same color as
+  - Cell directly top-right
+  - Cell directly top-left
+  - Cell directly bottom-left
+  - Cell directly bottom-right
 - An input box
   - Takes only number
   - Maximum of 20
