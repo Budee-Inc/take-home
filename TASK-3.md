@@ -23,10 +23,8 @@ All front-end code must be done in React.js
 ##### Requirements
 - When click on a piece, it will have a neon yellow border with 3 pixels in width
 - A piece, when clicked will have suggested move
-  - Move up one cell
-  - Move down one cell
-  - Move left one cell
-  - Move right one cell
+  - Move up one cell and right two cells
+  - Move up one cell and left two cells
   - If the cell is occupied by another piece of any color, it cannot move there
   - The suggested cell will be light blue
   - When click on the suggested cell, the active piece will move to the suggested cell
