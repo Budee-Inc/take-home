@@ -22,20 +22,7 @@ All front-end code must be done in React.js
 #### Create a checkered board
 
 ##### Requirements
-- A squared grid with each cell being either black or white
-- A cell cannot be the same color as
-  - Cell directly above
-  - Cell directly below
-  - Cell directly left
-  - Cell directly right
-- A cell must share the same color as
-  - Cell directly top-right
-  - Cell directly top-left
-  - Cell directly bottom-left
-  - Cell directly bottom-right
+- An 8X8 checkerboard/chessboard (i.e. 8 cells by 8 cells)
 - An input box
-  - Takes only number
-  - Maximum of 20
-  - Minimum of 5
-  - Upon entering a number, the grid will resized by NxN
-
+  - Takes in a number N
+  - Upon entering, resizes the board to an NxN board (i.e. N cells by N cells)
