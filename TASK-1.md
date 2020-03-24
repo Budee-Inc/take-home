@@ -26,3 +26,5 @@ All front-end code must be done in React.js
 - An input box
   - Takes in a number N
   - Upon entering, resizes the board to an NxN board (i.e. N cells by N cells)
+  
+ ![Example: ](https://i.ytimg.com/vi/je7zAWeDRZo/maxresdefault.jpg)
