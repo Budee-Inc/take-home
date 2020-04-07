@@ -18,6 +18,17 @@ All front-end code must be done in React.js
 
 **The project should have a clean architecture, maintainable/scalable code, and well commented/documented**.  Additionally, you should **make frequent commits** to the repository with a concise commit title based on the code change.
 
+## Getting started
+Install Node if you haven't already https://nodejs.org/en/download/
+
+```bash
+npm install -g create-next-app
+create-next-app --example nested-components
+#enter appname
+cd $appname
+npm run dev
+```
+
 ## Task
 #### Create a checkered board
 
