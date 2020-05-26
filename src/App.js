@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './index.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//import components here
+import Row from './component/Row';
+
+class App extends Component {
+  render() {
+    //loop through the initialized n-8 and create n-8 rows
+    let rows = [];
+    for (let i = 0; i < 8; i++) {
+      rows.push(<Row key={i}number={i} />);
+    }
+    return (
+      <React.Fragment>
+        <div className="app">{rows}</div>
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;
