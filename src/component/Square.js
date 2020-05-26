@@ -29,3 +29,4 @@ const Square = ({ number }) => {
 };
 
 export default Square;
+ 

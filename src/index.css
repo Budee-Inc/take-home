@@ -14,18 +14,7 @@
   justify-content: center;
 }
 .square {
- /* background: transparent;
- border:1px solid transparent;
- float: left;
- font-size: 24px;
- font-weight: bold;
- line-height: 34px;
- height: 48px;
- width: 48px;
- margin-right: -1px;
- margin-top: -1px;
- padding: 0;
- text-align: center; */   cursor: pointer;
+   cursor: pointer;
     flex-grow: 1;
     flex-basis: 0;
     display: flex;
