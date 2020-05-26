@@ -11,18 +11,19 @@ const Square = ({ number }) => {
   //   className += 'odd';
   //   // console.log('oddsquare', className);
   // }
-//check to see if the square is an even or odd square. if so then render the appropriate classNAme depending sqr  number
+  //check to see if the square is an even or odd square. if so then render the appropriate classNAme depending sqr  number
   let className = 'square';
+  
   if (number % 2 === 0 || number === 0) {
     className += 'even';
-    console.log('even clasName',number)
+    // console.log('even clasName',number)
   } else {
     className += 'odd';
-    console.log('odd clasName',number)
+    // console.log('odd clasName',number)
   }
   return (
     <div className="square">
-      <button className={className}></button>
+      <div id={className}>{number}</div>
     </div>
   );
 };
