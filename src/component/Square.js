@@ -11,12 +11,7 @@ const Square = ({ number }) => {
   } else {
     className += 'odd';
   }
-  return (
-    <div className="square">
-      <div id={className}>{number}</div>
-    </div>
-  );
+  return <div className={className}>{number}</div>;
 };
 
 export default Square;
- 
